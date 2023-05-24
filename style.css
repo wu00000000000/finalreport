@@ -1,0 +1,392 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url("reset.css");
+body{font-family: 'Noto Sans TC', sans-serif;}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+nav  {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E4DEDE;
+    width: 100%;
+    position: fixed;
+    opacity: 0.9;
+    text-shadow: 0px 2px 14px;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 15px;
+}
+ul li a:link {
+    color: #E75151;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #FFFFFF;
+    text-decoration: overline;
+}
+
+
+
+
+nav .title h1 {
+    margin-left: 10px;
+    text-align: left;
+    color: #E75151;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/pexels-valeria-boltneva-87584.jpg);
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+}
+.box1 {
+    background-color: #FF0004;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    flex-direction: column;
+}
+.box2 {
+    background-color: #FF9800;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.box3 {
+    background-color: #F9FF00;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 50px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.box4 {
+    background-color: #28FF00;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.box5 {
+    background-color: #0005FF;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 50px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.box6 {
+    background-color: #290096;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.box7 {
+    background-color: #D200FF;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 50px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.box8 {
+    background-color: #FF0004;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 50px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container main .nav {
+    color: #E04649;
+    text-align: center;
+
+
+
+}
+div .box1 a:link {
+    text-decoration: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+div .box1 a:hover {
+    background-color: #FFA9AB;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+    word-spacing: normal;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+}
+
+div .box2 a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+}
+div .box2 a:hover {
+    background-color: #FFDEA9;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+    word-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+div .box3 a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+}
+div .box3 a:hover {
+    background-color: #FFFEBB;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+    word-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+div .box4 a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+}
+div .box4 a:hover {
+    background-color: #B7FFAC;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+    word-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+div .box5 a:link  {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+}
+div .box5 a:hover {
+    background-color: #A9D5FF;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+    word-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+div .box6 a:link  {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+}
+div .box6 a:hover {
+    background-color: #8084DD;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+    word-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+div .box7 a:link  {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+}
+div .box7 a:hover {
+    background-color: #D8A9FF;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+    word-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+div .box8 a:link  {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+}
+div .box8 a:hover {
+    background-color: #FFA9AB;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+    word-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+article {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+main article .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+article .container .left {
+    flex: 1;
+    background-color: #E4DEDE;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+article .container .right {
+    flex: 1;
+    font-size: 20px;
+    width: 100px;
+    height: 200px;
+    background-color: #E4DEDE;
+    margin-right: 0px;
+    margin-left: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+main article .container2 {
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+article .container2 .left {
+    width: 100px;
+    height: 200px;
+    background-color: #E9D3D3;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    text-align: center;
+}
+article .container2 .right {
+    flex: 1;
+    margin-left: 10px;
+    background-color: #E9D3D3;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    color: #E75151;
+    background-color: #E4DEDE;
+    line-height: 50px;
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+}
+.container header .news {
+    font-size: 55px;
+    color: #FFFFFF;
+}
+.container header .music {
+    color: #FFFFFF;
+    font-size: 55px;
+}
